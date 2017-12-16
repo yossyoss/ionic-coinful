@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list *ngIf="coins">
+  <ion-item *ngFor="let coin of objectkeys(coins)">{{coin}}</ion-item>
+</ion-list>
+</ion-content>
